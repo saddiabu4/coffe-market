@@ -1,1 +1,26 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+
+@import url("https://fonts.googleapis.com/css2?family=Calistoga&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Calistoga&display=swap");
+
+@theme {
+	--color-primary: #1d4e1a;
+	--color-secondary: #ffecb8;
+	--font-calistoga: "Calistoga", serif;
+	--font-cabin: "Cabin Condensed", sans-serif;
+}
+
+@keyframes scroll {
+	0% {
+		transform: translateX(0);
+	}
+	100% {
+		transform: translateX(-50%);
+	}
+}
+
+@layer utilities {
+	.animate-scroll {
+		animation: scroll 20s linear infinite;
+	}
+}
