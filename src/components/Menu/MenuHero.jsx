@@ -18,11 +18,11 @@ const MenuHero = () => {
 				<div className='flex flex-row items-center justify-center gap-3'>
 					<Button
 						text='Our Locations'
-						className='px-4 py-3 bg-secondary text-primary rounded-3xl font-cabin'
+						className='cursor-pointer px-4 py-3 bg-secondary text-primary rounded-3xl font-cabin'
 					/>
 					<Button
 						text='About Us'
-						className='px-4 py-3 rounded-3xl border-1 border-secondary text-secondary'
+						className='cursor-pointer px-4 py-3 rounded-3xl border-1 border-secondary text-secondary'
 					/>
 				</div>
 			</div>
