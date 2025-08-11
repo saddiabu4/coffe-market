@@ -14,3 +14,112 @@ export const items = [
 	{ icon: "/images/Crown.png", text: "Global Flavor" },
 	{ icon: "/images/Smiley Love.png", text: "Friendly Baristas" },
 ]
+
+export const MenuProduct = {
+	coffee: [
+		{
+			img: "/images/coffe.png",
+			title: "Cold Brew",
+			cost: "$6.75",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Macchiato",
+			cost: "$6.10",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Espresso",
+			cost: "$4.25",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Black Coffee",
+			cost: "$4.90",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Cappuccino",
+			cost: "$5.25",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Flat White",
+			cost: "$5.50",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Latte",
+			cost: "$4.80",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Mocha",
+			cost: "$7.15",
+		},
+		{
+			img: "/images/coffe.png",
+			title: "Americano",
+			cost: "$5.30",
+		},
+	],
+	coldDrinks: [
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Virgin Mojito",
+			cost: "$6.20",
+		},
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Iced Latte",
+			cost: "$4.45",
+		},
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Iced Americano",
+			cost: "$3.95",
+		},
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Iced Mocha",
+			cost: "$5.75",
+		},
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Iced Tea",
+			cost: "$4.35",
+		},
+		{
+			img: "/images/coffe-drinks.png",
+			title: "Bubble Tea",
+			cost: "$6.75",
+		},
+	],
+	bakeryItems: [
+		{
+			img: "/images/Macaroons.png",
+			title: "Brownie",
+			cost: "$2.15",
+		},
+		{
+			img: "/images/Macaroons.png",
+			title: "Macaroon",
+			cost: "$2.60",
+		},
+		{
+			img: "/images/Macaroons.png",
+			title: "Donut",
+			cost: "$1.40",
+		},
+		{
+			img: "/images/Macaroons.png",
+			title: "Muffin",
+			cost: "$1.80",
+		},
+		{
+			img: "/images/Macaroons.png",
+			title: "Biscotti",
+			cost: "$1.50",
+		},
+	],
+}
