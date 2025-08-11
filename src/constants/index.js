@@ -1,17 +1,16 @@
-import Bolt from "../assets/Bolt.png"
-import Crown from "../assets/Crown.png"
-import Element from "../assets/Element.png"
-import Instagram from "../assets/Instagram.png"
-import SmileyLove from "../assets/Smiley Love.png"
-import Smiley from "../assets/Smiley.png"
-import Waterdrop from "../assets/Sweat Waterdrop.png"
-
 export const items = [
-	{ icon: Smiley, text: "Great Coffee" },
-	{ icon: Bolt, text: "Fast Service" },
-	{ icon: Instagram, text: "Cozy Space" },
-	{ icon: Waterdrop, text: "Handcrafted Drinks" },
-	{ icon: Element, text: "Local Roasts" },
-	{ icon: Crown, text: "Global Flavor" },
-	{ icon: SmileyLove, text: "Friendly Baristas" },
+	{ icon: "/images/Smiley.png", text: "Great Coffee" },
+	{ icon: "/images/Bolt.png", text: "Fast Service" },
+	{ icon: "/images/Instagram.png", text: "Cozy Space" },
+	{ icon: "/images/Sweat Waterdrop.png", text: "Handcrafted Drinks" },
+	{ icon: "/images/Element.png", text: "Local Roasts" },
+	{ icon: "/images/Crown.png", text: "Global Flavor" },
+	{ icon: "/images/Smiley Love.png", text: "Friendly Baristas" },
+	{ icon: "/images/Smiley.png", text: "Great Coffee" },
+	{ icon: "/images/Bolt.png", text: "Fast Service" },
+	{ icon: "/images/Instagram.png", text: "Cozy Space" },
+	{ icon: "/images/Sweat Waterdrop.png", text: "Handcrafted Drinks" },
+	{ icon: "/images/Element.png", text: "Local Roasts" },
+	{ icon: "/images/Crown.png", text: "Global Flavor" },
+	{ icon: "/images/Smiley Love.png", text: "Friendly Baristas" },
 ]
