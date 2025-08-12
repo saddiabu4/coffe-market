@@ -1,6 +1,6 @@
 import React from "react"
 
-const Button = ({ className, text }) => {
+const Button = ({ className, text, img = false, src }) => {
 	return (
 		<a
 			className={className}
@@ -8,7 +8,7 @@ const Button = ({ className, text }) => {
 				e.preventDefault()
 			}}
 		>
-			{text}
+			{img ? <img src={src} alt='#' /> : text}
 		</a>
 	)
 }

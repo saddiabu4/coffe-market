@@ -8,9 +8,14 @@ const ScrollTicker = () => {
 				{items.map((item, index) => (
 					<div
 						key={index}
-						className='flex items-center gap-2 text-primary text-lg whitespace-nowrap'
+						className='flex items-center gap-3 text-primary text-lg whitespace-nowrap'
 					>
-						<span className='text-xl'>{item.icon}</span>
+						<img
+							src={item.icon}
+							alt={item.text}
+							// className='invert sepia saturate-[300%] hue-rotate-[90deg]'
+							className='bg-green-900'
+						/>
 						<span>{item.text}</span>
 					</div>
 				))}

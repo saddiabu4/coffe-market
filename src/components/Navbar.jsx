@@ -1,5 +1,5 @@
 // Navbar.jsx
-import X from "../assets/X.svg"
+// import X from "../assets/X.svg"
 function Navbar() {
 	return (
 		<div>
@@ -8,7 +8,7 @@ function Navbar() {
 					Buy one coffee, get one free — this week only (April 14–20)
 				</p>
 				<img
-					src={X}
+					src={"/images/X.svg"}
 					alt='Cancel'
 					className='cursor-pointer'
 					width={20}

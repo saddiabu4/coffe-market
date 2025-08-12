@@ -1,5 +1,5 @@
 import Footer from "../components/Footer"
-import MenuBanner from "../components/Menu/MenuBanner"
+import FooterBanner from "../components/FooterBanner"
 import MenuCategory from "../components/Menu/MenuCategory"
 import MenuHero from "../components/Menu/MenuHero"
 import Navbar from "../components/Navbar"
@@ -13,7 +13,8 @@ const Menu = () => {
 			<MenuHero />
 			<ScrollTicker />
 			<MenuCategory />
-			<MenuBanner />
+			<FooterBanner />
+			<ScrollTicker />
 			<Footer />
 		</section>
 	)
