@@ -123,3 +123,9 @@ export const MenuProduct = {
 		},
 	],
 }
+
+export const ProductCms = [
+	{ img: "/images/coffe.png", title: "Cappuccino", cost: "$5.25" },
+	{ img: "/images/coffe.png", title: "Black Coffee", cost: "$4.90" },
+	{ img: "/images/coffe.png", title: "Macchiato", cost: "$6.10" },
+]

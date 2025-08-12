@@ -1,10 +1,10 @@
 import React from "react"
 import { MenuProduct } from "../../constants"
-import ProductRender from "./ProductRender"
+import ProductRender from "../ProductRender"
 
 const MenuCategory = () => {
 	return (
-		<section className='py-[120px] px-[40px] max-sm:py-[104px] max-sm:px-[24px]'>
+		<section className='py-[120px] px-[40px] max-sm:py-[104px] max-sm:px-[24px] bg-secondary/50'>
 			<div className='flex gap-6 max-md:flex-col max-md:gap-[64px]'>
 				{/* =-=-=-=-=-=-=-=-=- Left Section =-=-=-=-=-=-=-=-= */}
 				<div>

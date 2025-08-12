@@ -1,13 +1,22 @@
 import React from "react"
 
-const ProductRender = ({ items, className, badge, title, quantity }) => {
+const ProductRender = ({
+	items,
+	className,
+	badge,
+	title,
+	quantity,
+	line = true,
+}) => {
 	return (
 		<div>
 			<div className='flex flex-col gap-[40px] relative'>
-				<div className='absolute inset-x-0 border-t-1 border-primary/12' />
+				{line && (
+					<div className='absolute inset-x-0 border-t-1 border-primary/12' />
+				)}
 				{/* =-=-=-=-=-=-=-=-=- Title =-=-=-=-=-=-=-=-=*/}
 				<div className='flex flex-row justify-between items-end pt-[40px]'>
-					<h1 className='text-primary text-3xl font-calistoga leading-[116%] max-sm:text--[24px]'>
+					<h1 className='text-primary text-3xl font-calistoga leading-[116%] max-sm:text--[24px] '>
 						{title}
 					</h1>
 					<p className='font-cabin text-primary text-sm leading-[128%] tracking-[3%] max-sm:text-sm'>
