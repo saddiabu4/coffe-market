@@ -129,3 +129,21 @@ export const ProductCms = [
 	{ img: "/images/coffe.png", title: "Black Coffee", cost: "$4.90" },
 	{ img: "/images/coffe.png", title: "Macchiato", cost: "$6.10" },
 ]
+
+export const categoryLink = [
+	{
+		name: "Coffee",
+		link: "#coffee",
+		img: "/images/coffe.png",
+	},
+	{
+		name: "Cold Drinks",
+		link: "#coldDrinks",
+		img: "/images/coffe-drinks.png",
+	},
+	{
+		name: "Bakery",
+		link: "#bakeryItems",
+		img: "/images/bakery.png",
+	},
+]

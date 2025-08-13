@@ -5,10 +5,15 @@ import FooterBanner from "../components/FooterBanner"
 import ProductRender from "../components/ProductRender"
 import ScrollTicker from "../components/ScrollTicker"
 import { ProductCms } from "../constants"
+import { useLocation, useParams } from "react-router-dom"
 
 const ProductCMS = () => {
+	const { id } = useParams()
+	const location = useLocation()
+	const product = location.state
+
 	return (
-		<section className=' bg-secondary/12'>
+		<section className=' bg-secondary/12' id='#product'>
 			<div>
 				{/* =-=-=-=-=-=-=-=-=- Header =-=-=-=-=-=-=-=-=*/}
 				<div className='flex justify-center items-center px-10 pt-[180px] max-sm:px-6 max-sm:pt-[144px]'>
@@ -25,10 +30,10 @@ const ProductCMS = () => {
 							<div className='flex flex-col gap-5'>
 								<div className='flex flex-col max-md:gap-1'>
 									<h1 className='font-calistoga text-[44px] text-primary max-md:text-4xl max-sm:text-[32px]'>
-										Americano
+										{product.title}
 									</h1>
 									<p className='font-calistoga text-xl text-primary/70'>
-										$5.30
+										{product.cost}
 									</p>
 								</div>
 								<p className='font-cabin text-[16px] w-[440px] text-primary max-md:w-[300px]'>
