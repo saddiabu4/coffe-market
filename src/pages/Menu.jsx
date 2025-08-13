@@ -7,7 +7,7 @@ import ScrollTicker from "../components/ScrollTicker"
 
 const Menu = () => {
 	return (
-		<section>
+		<section id='#menu'>
 			<Navbar />
 			{/* Bu yerga Ibrohimjon kod yozadi */}
 			<MenuHero />
