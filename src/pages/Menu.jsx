@@ -1,5 +1,5 @@
 import Footer from "../components/Footer"
-import MenuBanner from "../components/Menu/MenuBanner"
+import FooterBanner from "../components/FooterBanner"
 import MenuCategory from "../components/Menu/MenuCategory"
 import MenuHero from "../components/Menu/MenuHero"
 import Navbar from "../components/Navbar"
@@ -7,13 +7,14 @@ import ScrollTicker from "../components/ScrollTicker"
 
 const Menu = () => {
 	return (
-		<section>
+		<section id='#menu'>
 			<Navbar />
 			{/* Bu yerga Ibrohimjon kod yozadi */}
 			<MenuHero />
 			<ScrollTicker />
 			<MenuCategory />
-			<MenuBanner />
+			<FooterBanner />
+			<ScrollTicker />
 			<Footer />
 		</section>
 	)
