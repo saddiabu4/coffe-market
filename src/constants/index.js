@@ -147,3 +147,34 @@ export const categoryLink = [
 		img: "/images/bakery.png",
 	},
 ]
+
+export const LocationTexts = {
+	location: [
+		{
+			subtitle: "Brooklyn",
+			title: "123 Bedford Ave, Brooklyn, NY 11211",
+			hourText: "Open daily: 7AM – 7PM",
+		},
+		{
+			subtitle: "Manhattan",
+			title: "456 Spring St, New York, NY 10012",
+			hourText: "Open daily: 7AM – 8PM",
+		},
+		{
+			subtitle: "Queens",
+			title: "789 Broadway, Queens, NY 11106",
+			hourText: "Open daily: 7AM – 6PM",
+		},
+		{
+			subtitle: "Queens",
+			title: "134-16 36th Road, Flushing, NY 11354",
+			hourText: "Open daily: 8AM – 6PM",
+		},
+	],
+	contact: [
+		{ subtitle: "General Inquiries", title: "+1 (212) 555-0198" },
+		{ subtitle: "Customer Support", title: "+1 (718) 555-0243" },
+		{ subtitle: "General Email", title: "hello@bhaus.com" },
+		{ subtitle: "Support Email", title: "support@bhaus.com" },
+	],
+}
