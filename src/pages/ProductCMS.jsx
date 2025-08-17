@@ -1,11 +1,10 @@
 import React from "react"
-import Button from "../components/Button"
 import Footer from "../components/Footer"
 import FooterBanner from "../components/FooterBanner"
 import ProductRender from "../components/ProductRender"
 import ScrollTicker from "../components/ScrollTicker"
 import { ProductCms } from "../constants"
-import { useLocation, useParams } from "react-router-dom"
+import { Link, useLocation, useParams } from "react-router-dom"
 
 const ProductCMS = () => {
 	const { id } = useParams()
@@ -20,7 +19,7 @@ const ProductCMS = () => {
 					<div className='flex flex-row justify-center items-center gap-[48px] w-[960px] max-sm:flex-col max-md:gap-6 max-sm:gap-8'>
 						<div className='flex justify-center items-center bg-primary rounded-3xl w-[450px] h-[450px] max-md:w-[400px] max-md:h-[400px] max-sm:w-[350px] max-sm:h-[350px]'>
 							<img
-								src='/images/coffe.png'
+								src={product.img}
 								alt=''
 								className='w-[450px] h-[450px] max-md:w-[400px] max-md:h-[400px] max-sm:w-[350px] max-sm:h-[350px]'
 							/>
@@ -99,12 +98,9 @@ const ProductCMS = () => {
 						<h1 className='font-calistoga text-[32px] text-primary max-sm:w-[200px]'>
 							You’ll Love These Too
 						</h1>
-						<Button
-							text={"Explore Menu"}
-							className={
-								"px-4 py-3 bg-primary rounded-4xl text-secondary max-sm:w-full text-center cursor-pointer"
-							}
-						/>
+						<Link to={"/menu"} className='btn_secondary'>
+							Explore Menu
+						</Link>
 					</div>
 					<ProductRender
 						items={ProductCms}
