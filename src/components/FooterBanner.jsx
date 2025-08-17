@@ -1,4 +1,6 @@
-import Button from "./Button"
+// import Button from "./Button"
+
+import { Link } from "react-router-dom"
 
 const FooterBanner = () => {
 	return (
@@ -26,27 +28,15 @@ const FooterBanner = () => {
 
 					{/* =-=-=-=-=-=-=-=-=- Button =-=-=-=-=-=-=-=-=*/}
 					<div className='flex flex-row items-center justify-center gap-3 max-sm:gap-2.5'>
-						<Button
-							img={true}
-							src={"/images/Uber Eats.svg"}
-							className={
-								"flex justify-center items-center p-5 rounded-xl bg-primary text-secondary w-[140px] h-[72px] cursor-pointer"
-							}
-						/>
-						<Button
-							img={true}
-							src={"/images/Grubhub.svg"}
-							className={
-								"flex justify-center items-center p-5 rounded-xl bg-primary text-secondary w-[72px] h-[72px] cursor-pointer"
-							}
-						/>
-						<Button
-							img={true}
-							src={"/images/Doordash.svg"}
-							className={
-								"flex justify-center items-center p-5 rounded-xl bg-primary text-secondary w-[72px] h-[72px] cursor-pointer"
-							}
-						/>
+						<Link className='btn_img'>
+							<img src='/images/Uber Eats.svg' alt='#' />
+						</Link>
+						<Link className='btn_img'>
+							<img src='/images/Grubhub.svg' alt='#' />
+						</Link>
+						<Link className='btn_img'>
+							<img src='/images/Doordash.svg' alt='#' />
+						</Link>
 					</div>
 				</div>
 			</div>

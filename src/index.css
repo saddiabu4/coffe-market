@@ -24,3 +24,18 @@
 		animation: scroll 20s linear infinite;
 	}
 }
+
+@layer buttons {
+	.btn_primary {
+		@apply cursor-pointer px-4 py-3 bg-secondary text-primary rounded-3xl font-cabin max-sm:w-full max-sm:text-center;
+	}
+	.btn_secondary {
+		@apply px-4 py-3 bg-primary rounded-4xl text-secondary max-sm:w-full text-center cursor-pointer;
+	}
+	.btn_outline {
+		@apply cursor-pointer px-4 py-3 rounded-3xl border-1 border-secondary text-secondary max-sm:w-full max-sm:text-center font-cabin;
+	}
+	.btn_img {
+		@apply flex justify-center items-center p-5 rounded-xl bg-primary text-secondary   cursor-pointer;
+	}
+}
